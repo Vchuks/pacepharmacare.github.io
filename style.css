@@ -1,0 +1,628 @@
+body, h2, h5,p{
+    margin: 0;
+    padding: 0;
+    font-family:"Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    margin: 0 40px;
+}
+header{
+    height:78px ;
+    width: 100%;
+    background-color: #3D7A15;
+    margin:0 auto; 
+    padding-top: 20px;
+}
+header img{
+    height: 50px;
+}
+header i{
+    color: #ffffff;
+    font-size: 35px;
+    margin-top: 5px;
+}
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#F0F7E7;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family:"Open Sans", sans-serif;
+}
+.menu a, button{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #999999;
+    display: block;
+    transition: 0.3s;
+    margin: 20px;
+    font-family:"Open Sans", sans-serif;
+}
+.menu .CloseBtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.menu button{
+   color: #44931B;
+   border-radius: 20px;
+   border: 1px solid #44931B;
+   padding: 10px;
+}
+.menu :active{
+    color: lawngreen;
+}
+.heroimage, .heroimage img{
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position-x: center;
+    background-attachment: fixed;
+    height: 698px;
+    width: 100%;
+    position: relative;
+}
+.herotext{
+    width: 600px;
+    height: 100%; 
+    position: absolute;
+    top: 40px;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 50px;
+}
+.herotext h5{
+    margin-top: 20px;
+    font-size: 15px;
+    width: 400px;
+    line-height: 25px;
+}
+.search{
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:#DEE9FF;
+    bottom: 50px;
+    position: absolute;
+    
+}
+.grid-item{
+    text-align: center;
+}
+.search input[type=text]{
+    width: 200px;
+    height: 45px;
+    position: relative;
+    font-size: 20px;
+    background-color:#DEE9FF;
+    border: none;
+    margin-top: 0px;
+    margin-left: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.search button{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    font-size: 20px;
+    background-color: #44931B;
+    border: none;
+    margin-top: 0px;
+    margin-left: 40px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #ffffff;
+    
+}
+.search button i{
+    padding-right: 10px;
+}
+.affiliation{
+    background-color: #F9FFF5;
+}
+.affiliation .wrapper{
+    height: 95px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.affiliation img{
+    height: 45px;
+    width: 75px;
+    
+}
+.affiliation img:hover{
+    width: 80px;
+    height: 60px;
+}
+.affiliation p{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.about{
+    height: 200px;
+    width: 100%;
+}
+.about h3{
+    color: #44931B;
+}
+.about p{
+    text-align: justify;
+    color: #757575;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.about div{
+    margin: 20px 0;
+}
+.about img{
+    margin-right: 10px;
+}
+.container-capsule .about{
+    margin: 0;
+    width: 30%;
+}
+.container-capsule{
+    display: flex;
+    height: auto;
+    margin-top: 20px;
+}
+.capsule-area{
+    background-image: url(images/capsule.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    height: 404px;
+    width:40%;
+    
+}
+.prescription button{
+    width: 60%;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #3D7A15;
+    font-size: 20px;
+    text-align: center;
+    color: #3D7A15;
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 50px;
+}
+.prescription i{
+    color: #3D7A15;
+}
+.plate{
+    width: 20%;
+    height: auto;
+    margin-top: 50px;
+    margin: auto;
+}
+.explore{
+    height: 400px;
+    width: 100%;
+    background-color: #F9FFF5;
+}
+
+.container-slide{
+    width: 100%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.container-slide p{
+    width: 90%;
+    margin: 40px 0;
+}
+.explore .about h2{
+    margin-top: 20px;
+}
+.mySlides{
+    display: none;
+    width: 90%;
+}
+.slideshow-customer{
+    height: 172px;
+    background-color: #3D7A15;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 40px;
+    
+}
+.slideshow-customer p{
+    color: #ffffff;
+    margin: 0;
+}
+.slideshow-customer2{
+    height: 172px;
+    background-color: #ffffff;
+    color: #000;
+    padding: 20px;
+    border-radius: 40px;
+    
+}
+.slideshow-customer2 p{
+    color: #000;
+    margin: 0;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s fade;
+  }
+  
+  .active, .dot:hover {
+    background-color: #3D7A15;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  .pfizer-container{
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto;
+  }
+  .pfizer{
+      height: 400px;
+      background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/drug.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 20px 0;
+      border-radius: 60px;
+      width: 90%;      
+  }
+  .pfizer-text{
+      font-size: 24px;
+      text-align: center;
+      height: 400px;
+      border-radius: 60px;
+      color: #ffffff;
+      text-align: justify;
+  }
+  .pfizer-text p{
+      width: 50%;
+      margin: auto;
+      padding-top: 200px;
+      line-height: 30px;
+  }
+  .newsletter{
+      height: 200px;
+      margin: auto 0;
+  }
+  .newsletter h4{
+      color: #999999;
+  }
+  .grid-item2{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 350px;
+    position: absolute;
+    margin-top: 30px;
+    
+}
+  .newsletter input[type=text]{
+      height: 40px;
+      font-size: 15px;
+      background-color: #DEDEDE;
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      padding: 10px;
+  }
+  
+  .newsletter button{
+      background-color: #3D7A15;
+      color: #ffffff;
+      border: 1px solid #3D7A15;
+      border-radius: 5px;
+      width: 100%;
+      position: relative;
+      margin: 0;
+  }
+  footer{
+      background-color: #44931B;
+      color: #ffffff;
+      
+  }
+  .footer-container{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      margin-top: 20px;
+     padding-top: 30px;
+     line-height: 30px;
+  }
+  .footer-title img{
+      height: 50px;
+  }
+  .footer-title p{
+      margin-top: 10px;
+  }
+  .footer-list a{
+      text-decoration: none;
+      display:block;
+      line-height: 30px;
+      color: #ffffff;
+  }
+  .footer-list p{
+      width: 270px;
+  }
+  .footer-subhead{
+      margin: 0 20px;
+  }
+  .socials a{
+      font-size: 30px;
+      color: #ffffff;
+      margin: 10px 20px 10px 0;
+  }
+  .email p{
+      margin-top:20px ;
+  }
+.copywright {
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 20px 0;
+}
+.copywright a{
+    color: #ffffff;
+  
+}
+
+
+
+@media (max-width:1100px){
+    .wrapper{
+        margin: 0 30px;
+    }
+    header{
+        height:58px ;
+        width: 100%;
+        background-color: #3D7A15;
+        margin:0 auto; 
+        padding-top: 20px;
+    }
+    header img{
+        height: 30px;
+    }
+    header i{
+        color: #ffffff;
+        font-size: 22px;
+        margin-top: 5px;
+    }
+    .heroimage, .heroimage img{
+        height: 298px;
+        width: 100%;
+    }
+    .herotext{
+        width: 300px;
+        height: 100%; 
+        position: absolute;
+        top: 30px;
+        font-size: 20px;
+        color: #ffffff;
+        line-height: 40px;
+    }
+    .herotext h5{
+        margin-top: 20px;
+        font-size: 10px;
+        width: 200px;
+        line-height: 20px;
+    }
+    .search{
+        height: 30px;
+        width: 200px;
+        border-radius: 30px;
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color:#DEE9FF;
+        bottom: 30px;
+        position: absolute;
+        
+    }
+    .grid-item{
+        text-align: center;
+    }
+    .search input[type=text]{
+        width: 120px;
+        height: 25px;
+        position: relative;
+        font-size: 12px;
+        background-color:#DEE9FF;
+        border: none;
+        margin-top: 0px;
+        margin-left: 15px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .search button{
+        width: 120px;
+        height: 30px;
+        position: relative;
+        font-size: 12px;
+        background-color: #44931B;
+        border: none;
+        margin-top: 0px;
+        margin-left: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        color: #ffffff;
+        
+    }
+    .search button i{
+        padding-right:5px;
+    }
+    .affiliation .wrapper{
+        height: 95px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .affiliation img{
+        height: 25px;
+        width: 55px;
+    }
+    .affiliation p{
+        text-align: center;
+        font-size: 18px;
+    }
+    .about{
+        height: auto;
+        width: 100%;
+    }
+    .about h3{
+        font-size: 12px;
+    }
+    .about h2{
+        font-size: 20px;
+    }
+
+    .container-capsule{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .container-capsule .about{
+        width: 100%;
+    }
+    .capsule-area{
+        margin-top: 10px;
+        width: 100%;
+        height:300px;
+    }
+    .prescription button{
+        width: 40%;
+        font-size: 15px;
+    }
+    .plate{
+        width: 50%;
+        margin: auto;
+    }
+    .container-slide{
+        width: 100%;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .container-slide p{
+        width: 100%;
+        margin: 30px 0;
+    }
+    .mySlides{
+        display: none;
+        width: 100%;
+    }
+    .slideshow-customer{
+        height: 172px;
+        background-color: #3D7A15;
+        color: #ffffff;
+        border-radius: 40px;
+        
+    }
+    .slideshow-customer p{
+        color: #ffffff;
+        margin: 0;
+    }
+    .slideshow-customer2{
+        height: 172px;
+        background-color: #ffffff;
+        color: #000;
+        padding: 20px;
+        border-radius: 40px;
+        
+    }
+    .slideshow-customer2 p{
+        color: #000;
+        margin: 0;
+    }
+
+    .explore{
+        height: 650px;
+        width: 100%;
+        background-color: #F9FFF5;
+    }
+    .pfizer-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pfizer{
+        height: 200px;
+        background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/drug.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 20px 0;
+        border-radius: 30px;
+        width:100%;
+    }
+    .pfizer-text{
+        font-size: 18px;
+        text-align: center;
+        height: 200px;
+        border-radius: 30px;
+        color: #ffffff;
+        text-align: justify;
+    }
+    .pfizer-text p{
+        width: 70%;
+        margin: auto;
+        padding-top: 90px;
+    }
+    .newsletter input[type=text]{
+        padding: 5px 10px;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+       padding-top: 30px;
+       line-height: 20px;
+    }
+    .footer-subhead{
+        margin: 10px 0 0 0 ;
+    }
+    .copywright {
+        margin: 30px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0 20px 0;
+    }
+    .copywright p{
+        margin-top: 20px;
+    }
+
+}
