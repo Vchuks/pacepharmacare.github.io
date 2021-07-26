@@ -226,6 +226,7 @@ header .wrapper{
     margin: auto;
     display:grid;
     grid-template-columns: auto auto;
+    margin-bottom: 20px;
 }
 .container-slide p{
     width: 90%;
@@ -639,4 +640,21 @@ header .wrapper{
         margin-top: 20px;
     }
 
+}
+
+@media (max-width:600px) {
+    .slideshow-customer{
+        height: 220px;
+        background-color: #3D7A15;
+        color: #ffffff;
+        border-radius: 40px;
+        
+    }
+    .slideshow-customer2{
+        height: 220px;
+        background-color: #3D7A15;
+        color: #ffffff;
+        border-radius: 40px;
+        
+    }
 }
