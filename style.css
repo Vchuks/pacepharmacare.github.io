@@ -249,6 +249,7 @@ header .wrapper{
 .slideshow-customer p{
     color: #ffffff;
     margin: 0;
+    height: auto;
 }
 .slideshow-customer2{
     height: 172px;
@@ -261,6 +262,7 @@ header .wrapper{
 .slideshow-customer2 p{
     color: #000;
     margin: 0;
+    height: auto;
 }
 .dot {
     cursor: pointer;
@@ -601,10 +603,18 @@ header .wrapper{
     .pfizer-text p{
         width: 70%;
         margin: auto;
-        padding-top: 90px;
+        padding-top: 70px;
     }
     .newsletter input[type=text]{
         padding: 5px 10px;
+    }
+    .grid-item2{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 300px;
+        position: absolute;
+        margin-top: 30px;
+        
     }
     .footer-container{
         display: flex;
